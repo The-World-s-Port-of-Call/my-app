@@ -14,7 +14,7 @@ const PastCoursesScreen = () => {
             color={colors.primary}
             size={35}
             onPress={() => {
-              navigation.replace("viewCourses")
+              navigation.replace("tabs")
             }}
             />
     <View style = {{marginTop:12, flexDirection: "column", justifyContent: "space-between", marginLeft: 15}}>

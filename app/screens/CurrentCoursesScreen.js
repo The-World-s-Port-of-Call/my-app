@@ -14,7 +14,7 @@ const CurrentCoursesScreen = () => {
             color={colors.primary}
             size={35}
             onPress={() => {
-              navigation.replace("viewCourses")
+              navigation.replace("tabs")
             }}
         
             />
